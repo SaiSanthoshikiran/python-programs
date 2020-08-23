@@ -6,3 +6,13 @@ n=[1,2,3,4,5]
 for i in range(1,5):
   print(i)
   
+#------------>>
+n="kiran"
+for i in range (len(n)):
+ print(n[i],end="  ")
+print()
+
+#--------->>
+n="kiran"
+for i in n:
+ print(i,end=" ")
