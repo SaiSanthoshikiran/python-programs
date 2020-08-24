@@ -1,20 +1,24 @@
-##import math
-##s=int(input('enter  start value'))
-##e=int(input('enter ending value'))
-##for i in range (s,e+1):
-##    for j in range (2,abs(int(math.sqrt(i)))):
-##        if i%j==0:
-##            break
-##        else:
-##            
 
-n=int(input("enter the range"))
-a=0
-b=1
-for i in range(0,2):
-    print(i,end=" ")
-for j in range (0,n+1):
-    c=a+b
-    a=b
-    b=c
-    print(b,end=" ")
+ n=int(input("enter a number"))
+m=int(input("enter a number"))
+if n<m:
+    small=n
+else:
+    small=m
+for i in range(1,small+1):
+    if (n%i==0 and m%i==0):
+        gcd=i
+        print('multiplicants',i)
+print("gcd is",gcd)
+
+##------------>>
+
+n=int(input("enter a number"))
+m=int(input("enter a number"))
+i=1
+gcd=1
+while i<=min(n,m):
+    if n%i==0 and m%i==0:
+        gcd=i
+    i+=1
+print(gcd)
