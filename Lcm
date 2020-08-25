@@ -1,0 +1,8 @@
+n=int(input("enter the number"))
+m=int(input("enter the number"))
+greater=max(m,n)
+while(True):
+    if greater%m==0 and greater%n==0:
+        print("lcm =",greater)
+        break
+    greater+=1
