@@ -17,5 +17,16 @@ for i in range (s,e+1):
         if i%j==0:
             break
     else:
-        print(i,end=" ")
-            
+        print(i,end=" ")            
+
+##------------>>
+#["prime number program using function"]
+import math
+def prime(n):
+    for j in range (2,abs(int(math.sqrt(i))+1)):
+        if n%i==0:
+            break
+    else:
+        return(n)
+n=int(input("enter a number"))
+print(prime(n))
