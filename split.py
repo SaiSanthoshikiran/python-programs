@@ -2,8 +2,9 @@
 ##print(list(n.split(" ")))
 
 #---------------->>
+#using function
 def split_string(string):
-    l=list(string.split("*"))
+    l=list(string.split(""))
     return l
 
 str=input("enter the input")
