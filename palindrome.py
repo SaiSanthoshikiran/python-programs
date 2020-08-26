@@ -4,3 +4,6 @@ if m==n:
     print(n,'is a palindrome')
 else:
     print(n,'is not palindrome')
+#-------->>
+def palindrome():
+    
