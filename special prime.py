@@ -1,3 +1,4 @@
+##A prime number is said to be Special prime number if it can be expressed as the sum of three integer numbers: two neighboring prime numbers and 1
 import math
 def prime(n):
     for i in range (2,abs(int(math.sqrt(n))+1)):
