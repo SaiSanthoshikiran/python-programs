@@ -1,0 +1,17 @@
+#nearest fibnocii num to the given nnum
+def nearestfib(n):
+    a,b=0,1
+    while b<=n:
+        c=a+b
+        a=b
+        b=c
+        print(a,b)
+    if abs(a-n)<=abs(b-n):
+        return a
+    else:
+        return b
+n=int(input("enter"))
+print(n)
+print(nearestfib(n))
+        
+        
