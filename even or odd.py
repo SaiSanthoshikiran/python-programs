@@ -1,4 +1,4 @@
-a=input('enter value')
+a=input("enter  the value")
 b=float(a)
 if b%2==0:
     print('even')
