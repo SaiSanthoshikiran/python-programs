@@ -1,5 +1,5 @@
 
- n=int(input("enter a number"))
+n=int(input("enter a number"))
 m=int(input("enter a number"))
 if n<m:
     small=n
@@ -11,7 +11,7 @@ for i in range(1,small+1):
         print('multiplicants',i)
 print("gcd is",gcd)
 
-##------------>>
+##-------------->>
 
 n=int(input("enter a number"))
 m=int(input("enter a number"))
