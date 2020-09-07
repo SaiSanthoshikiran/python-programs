@@ -1,0 +1,12 @@
+# if n is odd then n=n*3+1 or iif n is even then suesscive divide by 2
+n=int(input("num"))
+def c(n):
+    while n>1:   
+        if n%2==0:
+            n//=2
+            print(n,end=" ")
+
+        else:
+            n=n*3+1
+            print(n,end=" ")
+c(n)
