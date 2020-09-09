@@ -12,7 +12,7 @@ for i in range (0,n+1):
 !!!!
 !!!!!]
 ------------->>
-
+#repetation with *
 n=int(input("number"))
 
 for i in range(1,n+1):
