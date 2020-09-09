@@ -19,3 +19,16 @@ def armstrong(n):
 n=int(input('enter a number'))
 print(armstrong(n))
 
+--------------------->>
+
+def armstrong(n):
+    k=1
+    while n%10**k!=n:
+        k+=1
+    res=0
+    temp=n
+    while n>0:
+        res+=(n%10)**k
+        n//=10
+    return res==temp
+print(armstrong(int(input("n="))))
