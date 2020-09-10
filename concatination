@@ -13,3 +13,7 @@ o/p=56]
 
 --------------------->>
 
+n=str(input('n='))
+m=str(input('m='))
+n+=m
+print(n)
