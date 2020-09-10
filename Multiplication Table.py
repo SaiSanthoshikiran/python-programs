@@ -1,4 +1,4 @@
-
+#multiplication table with limits
 n=int(input('enter the number'))
 s=int(input(' enter starting num'))
 r=int(input('enter range'))
