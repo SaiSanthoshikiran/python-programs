@@ -1,3 +1,20 @@
+##"zukerman number is a number which is div by product of its digits--n=115--->>1*1*5=5 & 115%5=0"
+def z(n):
+    s=1
+    while n>0:
+        r=n%10
+        s=s*r
+        n=n//10
+    if n%s==0:
+        print('yes')
+    else:
+        print('no')
+    
+n=int(input("n="))
+z(n)
+
+------------------------->>
+
 n=int(input("n="))
 s=1
 while n>0:
