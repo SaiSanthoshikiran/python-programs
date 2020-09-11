@@ -1,3 +1,4 @@
+##"a number is a sastry number if n concatenated with n+1 gives a perfect square---n=183,n+1=184-->>183+184=183184=428 "
 import math
 n=int(input("n"))
 m=n+1
