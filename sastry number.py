@@ -16,3 +16,14 @@ if c==f:
     print("sastry number")
 else:
     print("not a sastry number")
+    
+--------------------------->>
+    
+n=int(input('n='))
+str1=str(n)+str(n+1)
+k=int(str1)**0.5
+if(k.is_integer()):
+    print('yes')
+else:
+    print('no')
+    
