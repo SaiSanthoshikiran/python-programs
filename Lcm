@@ -1,5 +1,5 @@
-n1=int(input("enter the number"))
-n2=int(input("enter the number"))
+n1=int(input("Enter the number"))
+n2=int(input("Enter the number"))
 greater=max(m,n)
 while(True):
     if greater%m==0 and greater%n==0:
