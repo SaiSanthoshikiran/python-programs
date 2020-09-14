@@ -1,0 +1,5 @@
+p=int(input("enter principle amount"))
+t=int(input("t="))
+r=int(input("r="))
+ans=(p*t/100*r)
+print(ans)
