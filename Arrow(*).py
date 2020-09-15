@@ -1,4 +1,4 @@
-###" arrow pattern "
+##" arrow pattern "
 def pattern(n):
     for i in range(n):#2,-2
         for j in range(1,abs(i)+1):
