@@ -17,7 +17,7 @@ n=int(input('n'))
 pattern(n)
 
 ----------------------->>
-
+#reverse direction tried
 def pattern(n):
     for i in range(1,n):#1,2
         for j in range(n-i,0,-1):#3,2
