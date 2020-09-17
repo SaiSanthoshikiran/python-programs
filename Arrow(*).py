@@ -34,6 +34,16 @@ def pattern(n):
 n=int(input('n'))
 pattern(n)
 
+OUTPUT:
+n4
+   ***
+  **
+ *
+==================
+ *
+  **
+   ***
+
 -------------------------->>
 def arrow(n):
     for i in range(n):
