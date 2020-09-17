@@ -25,6 +25,8 @@ def pattern(n):
         for k in range(n-i):
             print('*',end="")
         print()
+    for i in range(1,n+5):
+        print("="*2,end="")
     for i in range(0,n):
         for j in range(0,i):#3,2
             print(' ',end="")
