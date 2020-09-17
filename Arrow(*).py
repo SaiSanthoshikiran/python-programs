@@ -33,3 +33,37 @@ def pattern(n):
         print()
 n=int(input('n'))
 pattern(n)
+
+-------------------------->>
+def arrow(n):
+    for i in range(n):
+        for j in range(0,i+5):
+            print(' ',end="")
+        for j in range(1):
+            print('*',end="")
+        print()
+    for i in range(0,n+5):
+        print('*',end="")
+    print()
+    for i in range(n):
+        for j in range(0,n-i+3):
+            print(' ',end="")
+        for j in range(1):
+            print('*',end="")
+        print()
+    
+n=int(input('n'))
+arrow(n)
+
+OUTPUT:
+     *
+      *
+       *
+        *
+*********
+       *
+      *
+     *
+    *
+
+
