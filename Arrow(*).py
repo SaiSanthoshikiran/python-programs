@@ -16,6 +16,16 @@ def pattern(n):
 n=int(input('n'))
 pattern(n)
 
+OUTPUT:
+n4
+ *
+  **
+   ***
+    ****
+   ***
+  **
+ *
+
 ----------------------->>
 #reverse direction tried
 def pattern(n):
