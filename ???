@@ -10,7 +10,12 @@ def fib(n):
         i+=1
    
     print(b)
-fib(6)
+n=int(input('n'))
+fib(n)
+
+OUTPUT:
+n6
+5
 
 
 
