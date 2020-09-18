@@ -1,4 +1,4 @@
-##"zukerman number is a number which is div by product of its digits--n=115--->>1*1*5=5 & 115%5=0"
+##"zukerman number is a number which is divisible by product of its digits--n=115--->>1*1*5=5 & 115%5=0"
 def z(n):
     s=1
     while n>0:
