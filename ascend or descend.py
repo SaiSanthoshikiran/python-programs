@@ -20,7 +20,7 @@
 
 #---->>
 
-n=int(input("enter the number"))#5432
+n=int(input("Enter the number"))#5432
 ac=0
 dc=0
 x=10
