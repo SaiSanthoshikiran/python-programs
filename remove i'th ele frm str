@@ -1,4 +1,4 @@
-#REMOVE i'th ELEMENT FROM STRING 
+##"REMOVE i'th ELEMENT FROM STRING" 
 test_str = "GeeksForGeeks"
 print ("The original string is : " +test_str) 
 new_str = "" 
