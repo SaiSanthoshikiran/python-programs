@@ -24,3 +24,17 @@ for i in ra nge(len()):
     else:
         d+=(ord(r)-55)
     n=n[:-1 ]
+----------------------->>
+#hexa-->>Decimal
+n=int(input('n'))
+d=0
+b=1
+for i in range(len()):
+    r=n[-1]
+    if r.isdigit():
+        d+=(ord()-48)*b
+    else:
+        d+=(ord(r)-55)
+    n=n[:-1 ]
+    b*=16
+print(d)
