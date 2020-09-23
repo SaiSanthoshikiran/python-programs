@@ -1,15 +1,19 @@
 #Decimal---->>Hexa Decimal
 n=int(input('h'))
 h=''
-while n:
-    r=n%16
-    if r<10:
-        h+=str(chr(r+48))
-    else:
-        h+=str(chr(r+55))
+while n>0:
+     a=n%16
+     if a>=10 and a<=15:
+         a=a%10
+         h+=chr(65+a)
+     else:
+         h+=str(a)
+     n=n//16
 print(h[::-1])
 
-#hexa-->>Decimal
+------------------------->>
+hexa-->>Decimal
+
 n=int(input('n'))
 d=0
 b=1
