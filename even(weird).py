@@ -11,7 +11,7 @@ else:
     print('weird')
 
 
-##CODE:
+#CODE:
 #if num is even then
 #2-5:not weird
 #6-20:weird
