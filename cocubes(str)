@@ -1,0 +1,12 @@
+s=str(input('str'))
+n=int(input('n'))
+l=input('l')
+a=s[0:2:1]
+print(a+l*n+a)
+
+------------->>
+OUTPUT:
+str=abab
+n=5
+l=o
+aboooooab
