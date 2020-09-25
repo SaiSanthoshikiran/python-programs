@@ -1,6 +1,7 @@
+#KIRAN
 for r in range(7):
     for c in range(31):
-        if (r in {0,6}) and (c in {0,4}):
+        if (r in {0,6}) and (c in {0,4}):#k
             print("*",end="")
         elif (r in {1,5}) and (c in {0,3}):
             print("*",end="")
@@ -25,7 +26,7 @@ for r in range(7):
     print()
 
     --------------------------------------------->>
-    
+    #VINAY
     for r in range(5):
     for c in range(33):
         if ( c==0 or c==4) and (r in {0,1,2}):
