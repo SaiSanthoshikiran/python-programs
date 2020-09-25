@@ -4,9 +4,23 @@ l=input('l')
 a=s[0:2:1]
 print(a+l*n+a)
 
-------------->>
+
 OUTPUT:
 str=abab
 n=5
 l=o
 aboooooab
+
+------------------------->>
+#using function
+def pattern(str,c,n):
+    
+    a=str[0:2:1]
+    print(a+c*n+a)
+
+str=str(input('str'))
+n=int(input('n'))
+c=input('c')
+pattern(str,c,n)
+
+
