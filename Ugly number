@@ -1,4 +1,5 @@
-
+error
+#Ugly numbers are those number whose prime factors are 2, 3 or 5.
 def ugly(n):
     if n==0 or n>=30:
         return False
@@ -6,5 +7,9 @@ def ugly(n):
         while n%i==0:
             n/=i
     return n==1
-n=int(input())
+n=int(input('n:'))
 print(ugly(n))
+
+OUTPUT:
+n:14
+false
