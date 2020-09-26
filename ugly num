@@ -1,0 +1,10 @@
+
+def ugly(n):
+    if n==0 or n>=30:
+        return False
+    for i in[2,3,5]:
+        while n%i==0:
+            n/=i
+    return n==1
+n=int(input())
+print(ugly(n))
