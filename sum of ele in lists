@@ -5,3 +5,5 @@ for i in range (len(c)):
     
     print(s,end=",")
    
+OUTPUT:
+6,12,
