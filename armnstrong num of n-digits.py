@@ -1,3 +1,5 @@
+#In case of an Armstrong number of 3 digits, the sum of cubes of each digit is equal to the number itself.
+
 def length(n):
     cnt=0
     while n>0:
@@ -19,6 +21,9 @@ def armstrong(n):
 n=int(input('enter a number'))
 print(armstrong(n))
 
+OUTPUT:
+enter a number153
+armstrong number
 --------------------->>
 
 def armstrong(n):
