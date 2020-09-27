@@ -1,3 +1,4 @@
+# program 
 def enter_msg():
     i=input('>>')
     if i in('Hi','em chestunnav','tinnava','inkenti','ha'):
