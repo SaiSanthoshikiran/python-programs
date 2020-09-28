@@ -1,4 +1,4 @@
-s=str(input('str'))
+s=str(input('Enter str:'))
 n=int(input('n'))
 l=input('l')
 a=s[0:2:1]
