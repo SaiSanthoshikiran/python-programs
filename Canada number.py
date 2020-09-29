@@ -1,4 +1,4 @@
-##"if n=125  then divisors are 1 5 25 125  mid values(5,25)--5+25=30 , 1*1+2*2+5*5=30 -->>>>true"
+#"if n=125  then divisors are 1 5 25 125  mid values(5,25)--5+25=30 , 1*1+2*2+5*5=30 -->>>>true"
 def  num(n):
     s=0
     while(n>0):
