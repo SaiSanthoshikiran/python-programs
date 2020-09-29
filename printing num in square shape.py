@@ -1,4 +1,4 @@
-num=int(input('n'))
+num=int(input('num:'))
 k=[[0 for x in range(num)]for y in range(num)]
 n=1
 L=0
