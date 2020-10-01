@@ -1,3 +1,4 @@
+##"quiz using dictionaries with skip and quit options showing final results"
 n=input('enter your name:')
 print('Hello',n,'welcome to the quiz')
 q1="""what is the capital of Andhra Pradesh?
