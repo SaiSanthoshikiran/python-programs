@@ -1,5 +1,5 @@
-r=int(input("enter no.of rows"))
-c=int(input("enter no.of columns"))
+r=int(input("enter no.of rows="))
+c=int(input("enter no.of columns="))
 matrix=[]
 for i in range(1,r+1):
     a=[]
