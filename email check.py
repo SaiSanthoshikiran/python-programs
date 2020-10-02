@@ -1,7 +1,11 @@
-##""
+
 n=input("Enter email:")
 m=n.endswith('@gmail.com')
 if m==True:
-    print('success')
+    print('correct')
 else:
-    print('nope')
+    print('enter a valid email')
+ 
+OUTPUT:
+Enter email:kiran@gmail.com
+correct
