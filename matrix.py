@@ -14,4 +14,14 @@ for i in range(r):
         print(matrix[i][j],end=" ")
     print()
     
+OUTPUT:
+enter no.of rows2
+enter no.of columns2
+enter the nnumber11 1
+enter the nnumber12 1
 
+enter the nnumber21 2
+enter the nnumber22 2
+
+1 1 
+2 2 
