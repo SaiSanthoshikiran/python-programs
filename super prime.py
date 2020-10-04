@@ -1,4 +1,4 @@
-##"prime number holding prime place value (3,5,11)"
+##"A super-prime number is A number that occupies prime number position in the sequence of all prime numbers (3,5,11)"
 def prime(n):
     for i in range (2,n):
         if (n%i==0):
