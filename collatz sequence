@@ -1,4 +1,4 @@
-# if n is odd then n=n*3+1 or iif n is even then suesscive divide by 2
+# "if n is odd then n=n*3+1 or iif n is even then suesscive divide by 2"
 n=int(input("num"))
 def c(n):
     while n>1:   
