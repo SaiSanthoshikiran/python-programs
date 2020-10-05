@@ -6,6 +6,18 @@ def pattern(n):
         print(("*"*(i)).center(2*n))
 n=int(input("enter the num"))
 pattern(n)
+
+OUTPUT:
+enter the num5
+    *     
+    **    
+   ***    
+   ****   
+  *****   
+   ****   
+   ***    
+    **    
+    *     
 ---------------------->>
 def pattern(n):
     for i in range(n,-n,-1):
