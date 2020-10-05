@@ -14,5 +14,5 @@ def fib(n):
         i+=1
     else:
         print(s )
-       
-fib(5)
+n=int(input('n'))       
+fib(n)
