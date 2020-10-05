@@ -7,7 +7,7 @@ if count==2:
     print('prime num is',n)
 else:
     print(n,'not prime')
-##---------------->>
+##----------------------->>
 #"to the list of prime num in a given range"
 import math
 s=int(input('enter  start value'))
@@ -19,7 +19,7 @@ for i in range (s,e+1):
     else:
         print(i,end=" ")            
 
-##------------>>
+##----------------------->>
 #["prime number program using function"]
 import math
 def prime(n):
