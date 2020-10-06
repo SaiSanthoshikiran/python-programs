@@ -37,6 +37,19 @@ n="kiran"
 for i in n:
  print(i,end=" ")
 
+==========================>>
+a=[]
+for i in range(5):
+    if i!=2:
+        a.append(i)
+print(a)
+
+#simplified code for above case
+
+##a=[i for i in range(5) if i!=2]
+##print(a)
+##OUTPUT:
+##[0, 1, 3, 4]
 
 
 
