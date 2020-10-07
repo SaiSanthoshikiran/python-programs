@@ -52,7 +52,7 @@ print(a)
 ##[0, 1, 3, 4]
 
 ===============================>>
-
+#o/p containg no.of less values than that particular value
 n=[8,3,1,2]
 l=[]
 for i in range(len(n)):
