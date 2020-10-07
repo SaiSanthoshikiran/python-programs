@@ -83,6 +83,18 @@ print(status)
 OUTPUT:
 True
     
+=================================>>
+
+#displaying num acc to +4 index value
+n=[2,3,4,1,6,7,8,0]
+m=len(n)//2
+l=[]
+for i in range(m):
+    l.extend([n[i],n[i+m]])
+print(l)
+
+#OUTPUT:
+[2, 6, 3, 7, 4, 8, 1, 0]
 
 
 
