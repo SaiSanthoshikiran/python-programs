@@ -1,3 +1,4 @@
+
 def main():
     n=int(input())
     l=[]
@@ -15,6 +16,9 @@ def main():
         f=int(p[0])+a
         print(f)
 main()
+
+EXPLAINATION:
+first line contains no.of sample cases
 
 OUTPUT:
 2
