@@ -16,3 +16,9 @@ def main():
         print(f)
 main()
 
+OUTPUT:
+2
+b5 4 6
+b2 2 2
+25
+4
