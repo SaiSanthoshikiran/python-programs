@@ -3,7 +3,7 @@ def main():
     n=int(input())
     l=[]
     for i in range(n):
-        b=(input('b'))
+        b=(input(''))
     
         m=list(b.split())
         l.append(m)
@@ -26,7 +26,7 @@ same in case of 2 2 2 i/p
 
 OUTPUT:
 2
-b5 4 6
-b2 2 2
+5 4 6
+2 2 2
 25
 4
