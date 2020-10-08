@@ -18,7 +18,9 @@ def main():
 main()
 
 EXPLAINATION:
-first line contains no.of sample cases
+first line contains no.of sample cases #2
+card at last day added=5
+cards for 5(6-1)days=4+4+4+4+4=20 (4 is added for 5 times)
 
 OUTPUT:
 2
