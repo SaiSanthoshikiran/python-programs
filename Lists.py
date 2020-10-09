@@ -96,7 +96,7 @@ print(l)
 [2, 6, 3, 7, 4, 8, 1, 0]
 
 ==============================>>
-
+#no.of times values will be equal based on index values
 a=[1,2,3,1,1,3]
 c=0
 for i in range(len(a)):
@@ -106,6 +106,8 @@ for i in range(len(a)):
 print(c)
 output:
 14
+
+===============================>>
 
 
 
