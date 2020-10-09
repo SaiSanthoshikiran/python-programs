@@ -108,8 +108,27 @@ output:
 14
 
 ===============================>>
+if  each candies value is added to extra candy then value is >= max(candies) i.e 5 then true /else false is printed--------2+3=5>>True,1+3=4>>False
+##candies=[2,3,5,1,2] 
+###extra_candies=3
+##x=3
+##l=[]
+##for i in candies:
+##    if i+x>=max(candies):
+##        l.append(True)
+##    else:
+##        l.append(False)
+##print(l)
+##             [or]
 
+##a=[2,3,5,1,2]
+##x=3
+##m=max(a)
+##l=[True if i+x>=m else False for i in a]
+##print(l)
 
+##OUTPUT:
+##[True, True, True, False, True]
 
 
 
