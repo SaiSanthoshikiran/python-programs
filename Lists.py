@@ -51,21 +51,7 @@ print(a)
 ##[0, 1, 3, 4]
 
 ===============================>>
-#o/p containg no.of less values than that particular value
-n=[8,3,1,2]
-l=[]
-for i in range(len(n)):
-    a=0
-    for j in range(len(n)):
-        if n[j]<n[i]:
-            a+=1
-    l.append(a)
-print(l)
 
-OUTPUT:
-[3, 2, 0, 1]
-
-============================>>
 #alternative inc and dec of numbers in list
 l=[2,3,1,5,4]
 status=True
