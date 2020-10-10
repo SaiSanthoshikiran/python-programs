@@ -10,7 +10,7 @@ Binary-->> Decimal
 ##    b*=2
 ##print(decimal)
 
-##------------>>
+##------------------>>
 B-->>D
 
 n=input('n=')
