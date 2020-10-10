@@ -116,7 +116,6 @@ if  each candies value is added to extra candy then value is >= max(candies) i.e
 ##OUTPUT:
 ##[True, True, True, False, True]
 
-===============================>>
 
 
 
