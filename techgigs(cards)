@@ -17,6 +17,7 @@ def main():
         print(f)
 main()
 
+
 EXPLAINATION:
 first line contains no.of sample cases #2
 card at last day added=5
