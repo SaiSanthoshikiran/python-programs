@@ -134,7 +134,11 @@ if len(arr)!=0:
 else:
     print("-1 -1")
 
-
+OUTPUT:
+n:5
+1 2 2 3 3
+2
+1 2
 
 
 
