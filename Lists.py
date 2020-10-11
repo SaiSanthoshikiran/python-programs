@@ -1,4 +1,4 @@
-##displaying zeroes at last in o/p
+#"displaying zeroes at last in output"
 a=[1,2,3,0,3,0,2,0]
 c=0
 for i in range (len(a)):
