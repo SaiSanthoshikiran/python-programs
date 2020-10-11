@@ -116,6 +116,25 @@ if  each candies value is added to extra candy then value is >= max(candies) i.e
 ##OUTPUT:
 ##[True, True, True, False, True]
 
+=========================================>>
+
+n=int(input('n:'))
+l=list(map(int,input().strip().split()))[:n]
+key=int(input())
+L=sorted(l)
+arr=[]
+c=0
+for i in range (len(L)):
+    if l[i]==key:
+        arr.append(c)
+    c+=1
+    
+if len(arr)!=0:
+    print(arr[0],arr[-1])
+else:
+    print("-1 -1")
+
+
 
 
 
