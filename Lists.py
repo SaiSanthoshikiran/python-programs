@@ -117,7 +117,7 @@ if  each candies value is added to extra candy then value is >= max(candies) i.e
 ##[True, True, True, False, True]
 
 =========================================>>
-
+#displaying last and first index value of target number 
 n=int(input('n:'))
 l=list(map(int,input().strip().split()))[:n]
 key=int(input())
