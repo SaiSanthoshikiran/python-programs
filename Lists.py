@@ -52,23 +52,9 @@ print(a)
 
 ===============================>>
 
-#alternative inc and dec of numbers in list
-l=[2,3,1,5,4]
-status=True
-for i in range(len(l)-1):
-    if l[i]<l[i+1] and i%2==0:
-        status=True
-    elif l[i]>l[i+1] and i%2==1:
-        status=True
-    else:
-        status=False
-        break
-print(status)
 
-OUTPUT:
-True
     
-=================================>>
+
 
 #displaying num acc to +4 index value
 n=[2,3,4,1,6,7,8,0]
@@ -140,6 +126,19 @@ n:5
 2
 1 2
 
+================================>>
+after arrange in ascending oredr no.of values changed its index value is displayed
+
+a=[1,1,4,2,1,3]
+b=sorted(a)#[1,1,1,2,3,4]
+c=0
+for i in range(len(a)):
+    if a[i]!=b[i]:
+        c+=1
+print(c)
+    
+output:
+3
 
 
 
