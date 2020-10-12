@@ -51,11 +51,6 @@ print(a)
 ##[0, 1, 3, 4]
 
 ===============================>>
-
-
-    
-
-
 #displaying num acc to +4 index value
 n=[2,3,4,1,6,7,8,0]
 m=len(n)//2
@@ -139,7 +134,20 @@ print(c)
     
 output:
 3
+================================>>
 
+p=[8,4,6,2,3]
+l=[]
+for i in range(len(p)):
+    for j in range(i+1,len(p)):
+        if p[i]>p[j]:
+            l.append(p[i]-p[j])
+            break
+        else:
+            l.append(p[i])
+print(l)
 
+OUTPUT:
+[4, 4, 2, 4, 2]
 
 
