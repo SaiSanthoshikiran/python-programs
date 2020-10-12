@@ -34,3 +34,24 @@ Constraints:
 nums.length == index.length
 0 <= nums[i] <= 100
 0 <= index[i] <= i
+---------------->>
+
+n=[0,1,2,3,4]
+m=[0,1,2,2,1]
+t=[]
+for i in range(len(n)):
+    t.insert(m[i],n[i])
+print(t)
+
+OUTPUT:
+[0, 4, 1, 3, 2]
+
+
+
+
+
+
+
+
+
+
