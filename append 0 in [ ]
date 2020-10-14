@@ -14,3 +14,17 @@ Explanation: After calling your function, the input array is modified to: [1,2,3
 Note:
 ⦁	1 <= arr.length <= 10000
 ⦁	0 <= arr[i] <= 9
+
+-------------------------->>
+
+a=[1,0,2,3,0,4,5,0]
+s=[]
+for i in range(len(a)):
+    if a[i]!=0:
+        s.append(a[i])
+    else:
+        s.extend([a[i],0])
+print(s[:len(a)])
+
+OUTPUT:
+[1, 0, 0, 2, 3, 0, 0, 4]
