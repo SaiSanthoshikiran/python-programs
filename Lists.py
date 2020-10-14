@@ -153,7 +153,24 @@ OUTPUT:
 
 ===============================>>
 
+#"checking whether the max val of list is greater than twice of the rem elements"
+n=[3,6,1,0]
+m=max(n)
+b=n.copy()
+b.remove(m)
+c=0
+for i in b:
+    if m>=2*i:
+        c+=1
+if c==len(b):
+    print(n.index(m))
+else:
+    print(-1)
 
+OUTPUT:
+1
+
+======================>>
 
 
 
