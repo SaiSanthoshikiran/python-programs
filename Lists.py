@@ -172,7 +172,18 @@ OUTPUT:
 
 ======================>>
 
+#"check whether the target num is in list or not ,if yes then print its index value or else insert the target element in order and print its index val"
+n=[1,3,5,6]
+t=4
+if t in n:
+    print(n.index(t))
+else:
+    n.append(t)
+    n.sort()
+    print(n.index(t))
 
+OUTPUT:
+2
 
 
 
