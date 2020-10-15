@@ -185,6 +185,13 @@ else:
 OUTPUT:
 2
 
+-------------------->>
+
+heap,num,itr=list(map(int,input().split())),int(input()),0
+while heap[itr]<num:
+    itr+=1
+print(itr)
+
 =================================>>
 
 #alternative inc and dec of numbers in list
