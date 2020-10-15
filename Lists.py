@@ -185,7 +185,23 @@ else:
 OUTPUT:
 2
 
+=================================>>
 
+#alternative inc and dec of numbers in list
+l=[2,3,1,5,4]
+status=True
+for i in range(len(l)-1):
+    if l[i]<l[i+1] and i%2==0:
+        status=True
+    elif l[i]>l[i+1] and i%2==1:
+        status=True
+    else:
+        status=False
+        break
+print(status)
+
+OUTPUT:
+True
 
 
 
