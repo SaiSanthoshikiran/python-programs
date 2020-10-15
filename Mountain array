@@ -36,3 +36,33 @@ Note:
 
 ------------------------>>
 
+#n=list(map(int,input().split()))
+n=[1,2,3,4,2,1,0]
+if n.index(max(n))==len(n)-1:
+    print(False)
+else:
+    for i in range(0,n.index(max(n))-1):
+        if not n[i]<n[i+1]:
+            print(False)
+            break
+    else:
+            for i in range(n.index(max(n)),len(n)-1):
+                if not n[i]>n[i+1]:
+                    print(False)
+                    break
+            else:
+                print(True)
+    
+OUTPUT:
+True
+
+
+
+
+
+
+
+
+
+
+
