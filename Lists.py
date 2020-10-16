@@ -8,7 +8,7 @@ for i in range (len(a)):
         a[c]=m
         c+=1
 print(a)
-#-------------------->>
+#--------------------->>
 a=[1,2,3,0,3,0,2,0]
 for i in range(len(a)):
     if a[i]==0:
