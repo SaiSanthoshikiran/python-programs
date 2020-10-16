@@ -31,7 +31,7 @@ n="kiran"
 for i in range (len(n)):
  print(n[i],end="  ")
 print()
-#--------->>
+#----------->>
 n="kiran"
 for i in n:
  print(i,end=" ")
