@@ -1,4 +1,4 @@
-n=int(input('n'))
+n=int(input('n:'))
 num=1
 for i in range(n):
     for j in range(i+1):
