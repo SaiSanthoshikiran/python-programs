@@ -18,7 +18,7 @@
 ##    print("no format")
 
 
-#------->>
+#----------->>
 
 n=int(input("Enter the number"))#5432
 ac=0
