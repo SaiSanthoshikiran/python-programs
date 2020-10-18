@@ -1,4 +1,4 @@
-##n=input("Enter the number")
+##n=input("Enter the Number")
 ##asc=n[0]<=n[1]
 ##des=n[0]>=n[1]
 ##i=1
