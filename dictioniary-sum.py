@@ -9,8 +9,6 @@ for i in range(n):
         c=c+i
     v.append(c)
     a[k]=v
-for i,j in a.():
-    print(i,j)
-
+print(a)
 
         
