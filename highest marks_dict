@@ -10,7 +10,7 @@ for i in range(n):
     v.append(c)
     a[k]=v
 print(a)
-
+--------------->>
 OUTPUT:
 no.of students:2
 enter student name:k
