@@ -11,4 +11,10 @@ for i in range(n):
     a[k]=v
 print(a)
 
-        
+OUTPUT:
+no.of students:2
+enter student name:k
+enter subject marks:2 2 2
+enter student name:r
+enter subject marks:3 3 3
+{'k': [6], 'r': [9]}
