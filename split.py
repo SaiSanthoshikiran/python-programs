@@ -1,4 +1,4 @@
-n=input('enter the value')
+n=input('Enter the value')
 print(list(n.split(" ")))
 
 #---------------->>
