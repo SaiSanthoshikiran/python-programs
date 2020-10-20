@@ -19,3 +19,4 @@ Output:
 ]
 
 ----------------->>
+n=int(input('enter the no.of rows:'))
