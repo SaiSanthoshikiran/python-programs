@@ -14,7 +14,7 @@ val=list(a.values())
 m=max(val)
 print(keys[val.index(m)],m)
 
---------------->>
+----------------->>
 OUTPUT:
 no.of students:2
 enter student name:k
