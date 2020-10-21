@@ -13,6 +13,7 @@ while s!=1 and s!=n:
     s=aliquot(s)
     print(s)
 
+
 #explaination:
 #[n=10
 ##    5+2+1=8
