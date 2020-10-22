@@ -1,4 +1,4 @@
-n=list(input().split())
+n=list(input('enter the name:').split())
 ans=""
 for i in range(len(n)-1):
     s=n[i]
