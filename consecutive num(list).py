@@ -1,16 +1,12 @@
-
-##"error program"
-l = [2, 3, 8, 4, 5] 
+l = [2, 3, 6, 4, 5] 
 s=sorted(l)
-cons=s[0]<s[1]
-
-for i in range(len(l)):
-    if cons:
-        s[i]-s[i-1]==1
+ans=""
+for i in range(len(l)-1):
+    if s[i+1]-s[i]==1:
+        ans="consecutive"
     else:
-        s[i]-s[i-1]!=1
+        ans="not consecutive"
+print(ans)
 
-if cons:
-    print(s,"consecutive")
-else:
-    print(s,"not consecutive")
+OUTPUT:
+consecutive
