@@ -16,7 +16,7 @@ Example 2:
 1 <= A.length <= 5000
 0 <= A[i] <= 5000
 ------------------------------>>
-n=int(input('n'))
+n=int(input('n:'))
 m=list(map(int,input().split()))
 l=[]
 for i in range(n):
@@ -29,6 +29,6 @@ for i in range(n):
 print(l)
 
 output:
-n4
+n:4
 3 1 2 4
 [2, 4, 3, 1]
