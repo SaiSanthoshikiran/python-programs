@@ -19,5 +19,7 @@ if cnt==1:
 else:
     print(a," is not a right truncated prime")
 
-
+OUTPUT:
+enter a number137
+right truncated prime
 
