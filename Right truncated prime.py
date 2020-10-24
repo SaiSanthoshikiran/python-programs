@@ -1,4 +1,4 @@
-##prime number remains prime even after remving digits from right end(137-prime,13-prime,7-prime)
+##"prime number remains prime even after remving digits from right end(137-prime,13-prime,7-prime)"
 def prime(n):
     for i in range(2,n):
         if (n%i==0):
