@@ -1,8 +1,13 @@
-n1=int(input("Enter the Number"))
-n2=int(input("Enter the Number"))
+n=int(input("Enter the Number"))
+m=int(input("Enter the Number"))
 greater=max(m,n)
 while(True):
     if greater%m==0 and greater%n==0:
         print("lcm=",greater)
         break
     greater+=1
+
+output:
+2
+4
+lcm=4
