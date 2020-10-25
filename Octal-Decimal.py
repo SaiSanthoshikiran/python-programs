@@ -19,7 +19,7 @@ for i in range (0,len(str(n))):
     c+=(rem*8**i)
     n=n//10
 print(c)
------------------->>
+--------------------------->>
 
 #Decimal ---->> Octal
 
