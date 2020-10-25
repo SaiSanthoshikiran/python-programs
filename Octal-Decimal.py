@@ -1,4 +1,4 @@
-octal-->>decimal
+"octal-->>decimal"
 ##n=int(input('n:'))
 ##decimal=0
 ##b=1
