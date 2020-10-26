@@ -213,8 +213,8 @@ True
 ============================>>
 
 n=int(input("enter num"))
-m=int(input())
-a=int(input())
+m=int(input('enet num'))
+a=int(input('enter num'))
 c=0
 for i in range(n,m+1):
     if i%a==0:
