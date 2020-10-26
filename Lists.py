@@ -212,7 +212,7 @@ True
 
 ============================>>
 
-n=int(input())
+n=int(input("enter num"))
 m=int(input())
 a=int(input())
 c=0
@@ -220,7 +220,10 @@ for i in range(n,m+1):
     if i%a==0:
         c+=1
 print(c)
-        
+===============================>>
+
+
+
 
 
 
