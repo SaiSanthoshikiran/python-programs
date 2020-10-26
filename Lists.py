@@ -211,7 +211,6 @@ OUTPUT:
 True
 
 ============================>>
-
 n=int(input("enter num"))
 m=int(input('enet num'))
 a=int(input('enter num'))
