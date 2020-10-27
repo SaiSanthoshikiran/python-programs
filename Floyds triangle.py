@@ -8,6 +8,7 @@ for i in range(n):
  
 
 OUTPUT:
+
 n5
 1 
 2 3 
