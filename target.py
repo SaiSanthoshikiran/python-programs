@@ -11,3 +11,6 @@ def fun(fb,n):
 fb=[1,0,0,0,1]
 n=1
 print(fun(fb,n))
+
+OUTPUT:
+True
