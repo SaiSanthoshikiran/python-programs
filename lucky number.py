@@ -9,3 +9,8 @@ def lucky(arr):
     return -1
 arr=list(map(int,input().split()))
 print(lucky(arr))
+
+OUTPUT:
+1 2 2 3 4 
+{1: 1, 2: 2, 3: 1, 4: 1}
+2
