@@ -1,3 +1,4 @@
+#"printing the num if no.of occurences and the num is same --lucky num ,in case 2 or more possible outcomes printing the largest val"
 def lucky(arr):
     c={}
     for i in arr:
