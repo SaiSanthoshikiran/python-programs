@@ -1,3 +1,5 @@
+##ERROR
+
 In a deck of cards, each card has an integer written on it.
 Return true if and only if you can choose X >= 2 such that it is possible to split the entire deck into 1 or more groups of cards, where:
 Each group has exactly X cards.
@@ -27,3 +29,18 @@ Explanation: Possible partition [1,1],[2,2],[2,2].
 Constraints:
 1 <= deck.length <= 10^4
 0 <= deck[i] < 10^4
+
+------------------->>
+def pattern(l):
+    d={}
+    for i in l:
+        d[i]=d.get(i,0)+1
+        print(d)
+    val=d.values()
+    for i in range(2,min(val)+1):
+        if sum([0 if v%i==0 else l for v in val])==0:
+            return True
+    return False
+l=[1,1,1,2,2,2,3,3]
+
+print(pattern(l))
