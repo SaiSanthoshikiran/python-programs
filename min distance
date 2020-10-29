@@ -1,0 +1,10 @@
+def mindistance(arr,s,d):
+    t=sum(arr)
+    d1=sum(arr[s:d])
+    d2=t-d1
+    return min(d2,d1)
+arr=n=list(map(int,input().split()))
+s=int(input())
+d=int(input())
+print(mindistance(arr,s,d))
+
