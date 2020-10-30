@@ -1,5 +1,5 @@
-n=int(input("enter a number"))
-m=int(input("enter a number"))
+n=int(input("Enter a number"))
+m=int(input("Enter a number"))
 if n<m:
     small=n
 else:
