@@ -1,4 +1,4 @@
-##Armstrong number is a number that is equal to the sum of cubes of its digits.
+##"Armstrong number is a number that is equal to the sum of cubes of its digits."
 def sum_digits(n):
     n=l
     s=0
