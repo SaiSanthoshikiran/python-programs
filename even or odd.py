@@ -1,4 +1,4 @@
-a=input("enter  the value")
+a=input("enter  the Nukmber")
 b=float(a)
 if b%2==0:
     print('even')
