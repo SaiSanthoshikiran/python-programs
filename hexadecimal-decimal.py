@@ -25,7 +25,7 @@ for i in ra nge(len()):
         d+=(ord(r)-55)
     n=n[:-1 ]
 ----------------------->>
-#hexa-->>Decimal
+#hexa---->>Decimal
 n=int(input('n'))
 d=0
 b=1
