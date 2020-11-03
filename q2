@@ -40,3 +40,7 @@ Constraints:
 1 <= arr[i] <= 10^6
 arr contains distinct integers.
 1 <= k <= 10^9
+
+------------------------------>>
+
+
