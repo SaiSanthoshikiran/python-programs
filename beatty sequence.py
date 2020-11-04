@@ -1,4 +1,4 @@
-#a number is multiplied by sqrt(2)
+#"a number is multiplied by sqrt(2)"
 import math
 def beatty(n):
     for i in range(1,n+1):
