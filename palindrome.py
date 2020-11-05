@@ -6,3 +6,9 @@ if m==n:
 else:
     print(n,'is not palindrome')
 
+======================>>
+n=input()
+if n==n[::-1]:
+    print('palindrome')
+else:
+    print('not a palindrome')
