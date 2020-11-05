@@ -12,3 +12,10 @@ if n==n[::-1]:
     print('palindrome')
 else:
     print('not a palindrome')
+    
+=========================>>
+?????????????????
+n=input()
+for i in range(len(n)/2):
+    if a(i)==a(i-1):
+        print('')
