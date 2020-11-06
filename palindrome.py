@@ -14,8 +14,3 @@ else:
     print('not a palindrome')
     
 =========================>>
-????????
-n=input()
-for i in range(len(n)/2):
-    if a(i)==a(i-1):
-        print('')
