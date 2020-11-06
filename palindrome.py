@@ -16,6 +16,8 @@ else:
 =========================>>
 n=input()
 m=len(n)
-
 for i in range(0,int(m-1)):
     if n[i]!=n[m-i-1]:
+        print('not palindrome')
+    else:
+        print('palindome')
