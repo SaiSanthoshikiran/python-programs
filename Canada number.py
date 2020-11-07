@@ -18,8 +18,8 @@ def xyz(n):
 def canada(n):
     return(xyz(n)==num(n))
     if canada(n):
-        print('yes')
+        print('Yes')
     else:
-        print('no')
+        print('No')
 n=int(input('n'))
 print(canada(n))
