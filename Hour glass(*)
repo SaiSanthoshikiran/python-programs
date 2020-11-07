@@ -1,4 +1,4 @@
-#program for hour glass pattern
+#"program for hour glass pattern"
 def hourglass(n):
     for i in range(n-1,0,-1):
         print(("* "*(i+1)).center(2*n))
