@@ -12,7 +12,7 @@ True
 True
 True
 True
-
+--------------->>
 
 #str.isalnum()
 This method checks if all the characters of a string are alphanumeric (a-z, A-Z and 0-9).
