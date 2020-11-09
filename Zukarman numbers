@@ -15,7 +15,7 @@ z(n)
 
 ------------------------->>
 
-n=int(input("n="))
+n=int(input("n:"))
 s=1
 while n>0:
     r=n%10
