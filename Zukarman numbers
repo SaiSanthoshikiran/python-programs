@@ -10,7 +10,7 @@ def z(n):
     else:
         print('no')
     
-n=int(input("n="))
+n=int(input("n:"))
 z(n)
 
 ------------------------->>
