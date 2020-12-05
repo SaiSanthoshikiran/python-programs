@@ -13,7 +13,7 @@ def pattern(n):
             print('*',end="")
         print()
     
-n=int(input('n'))
+n=int(input('n:'))
 pattern(n)
 
 OUTPUT:
