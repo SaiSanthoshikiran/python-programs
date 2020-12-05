@@ -17,7 +17,7 @@ n=int(input('n:'))
 pattern(n)
 
 OUTPUT:
-n4
+n:4
  *
   **
    ***
