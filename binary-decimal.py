@@ -11,7 +11,7 @@ Binary--->> Decimal
 ##print(decimal)
 
 ##------------------>>
-B-->>D
+B---->>D
 
 n=input('n=')
 dec=0
