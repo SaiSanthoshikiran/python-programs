@@ -1,4 +1,4 @@
-Binary-->> Decimal
+Binary--->> Decimal
 
 ##n=int(input('n:'))
 ##decimal=0
