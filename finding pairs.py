@@ -5,6 +5,6 @@ for i in range(len(n)):
         print([n[i-1],n[i]])
         
 OUTPUT:
-4 2
-1 3
-3 5
+[4, 2]
+[1, 3]
+[3, 5]
