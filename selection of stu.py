@@ -9,3 +9,11 @@ if not(brnch=="cse" or brnch=="ece" or brnch=="it" and clg=="aec" and yr=="4" an
 else:
     print("you are not eligible")
  
+OUTPUT:
+aec
+4
+61
+0
+cse
+f
+you are not eligible
