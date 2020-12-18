@@ -30,3 +30,18 @@ def prime(n):
         return(n)
 n=int(input("enter a number"))
 print(prime(n))
+#--------------------------------------------->>
+["prime number check to eliminate time limit error"]
+n=int(input())
+for i in range(n):
+    m=int(input())
+    c=0
+    for j in range(2,m):
+        if m%j==0:
+            c+=1
+            break
+    if c==1:
+        print("not prime")
+    else:
+        print("prime")
+           
