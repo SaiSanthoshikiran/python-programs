@@ -1,0 +1,44 @@
+A number is called almost prime if it has exactly two distinct prime divisors. For example, numbers 6, 18, 24 are almost prime, while 4, 8, 9, 42 are not. Find the amount of almost prime numbers which are between 1 and n, inclusive.
+
+Input
+Input contains one integer number n (1 ≤ n ≤ 3000).
+
+Output
+Output the amount of almost prime numbers between 1 and n, inclusive.
+
+Examples
+inputCopy
+10
+outputCopy
+2
+inputCopy
+21
+outputCopy
+8
+
+
+
+-------------------------->>
+def prime(q):
+    for y in range(2,q+1):
+        if (q%y)==0:
+            break
+        else:
+            return(1)
+n=int(input())
+m=0
+for i in range(2,n+1):
+    c=[]
+    for j in range(2,i):
+        if i%j==0:
+            c.append(j)
+    r=0
+    for d in range(len(c)):#0,1
+        q=c[d]
+        if (c[d]==2 or prime(q)==1):
+            r+=1
+        d+=1
+    if r==2:
+        m+=1
+    i+=1
+print(m,"m")
