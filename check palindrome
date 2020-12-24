@@ -1,0 +1,19 @@
+to check whether num sum gives a plindrome or not ,if not repeting untill it finds a palindrome sum.
+
+def fun(n):
+    s="" 
+    x=int(n)+int(n[::-1])
+    s+=str(x)
+    if s==s[::-1]:
+        print(s)
+    else:
+        fun(s)
+n=input()
+fun(n)
+
+----------->>
+124
+545
+
+195
+9339
