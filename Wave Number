@@ -1,0 +1,30 @@
+##Wave  number
+n=input()
+l=[]
+for i in n:
+    l.append(int(i))
+s=""
+for i in range(0,len(l)-1,2):
+    if l[i]<l[i+1]:
+        a="y"
+        if s==a:
+            s="no"
+            break
+        else:
+            s=a
+    else :
+        a="n"
+        if s==a:
+            s="no"
+            break
+        else:
+            s=a
+if s=="no" :
+    print(s,"No")
+else:
+    print(s,"Yes")
+
+
+eg:
+1742--Yes
+12345--No
