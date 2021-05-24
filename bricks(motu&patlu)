@@ -1,0 +1,29 @@
+==>>>motu && patlu
+n=int(input())
+b1=1
+l=[]
+while sum(l)<n:
+    l.append(b1)
+    if sum(l)<n:
+        l.append(b1*2)
+    b1+=1
+if len(l)%2==0:
+    print("m")
+else:
+    print("p")
+    
+    
+eg:
+1) 13-motu
+explaination:
+p | m
+1 | 2
+2 | 4
+3 | 1
+
+2) 12-patlu
+explaination:
+p | m
+1 | 2
+2 | 4
+3 |
